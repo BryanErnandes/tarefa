@@ -3,7 +3,7 @@ import { Button, StyleSheet, StatusBar, Text, TextInput, View } from 'react-nati
 
 export default function App() {
   const [tarefa, setTarefa] = React.useState();
-  const [tarefas, setTarefas] = React.useState(["Matematica, Lingua-Portugues"]);
+  const [tarefas, setTarefas] = React.useState(["atemática, Lingua Portuguesa"]);
 
   const adicionarTarefa = () => {
     tarefas.push(tarefa);
